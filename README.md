@@ -15,8 +15,11 @@ Last modification date: 22.11.2018 08:00
 1. DAT-files from previous step (subfolder(-s) with dates in the 'c:\PF2\Mascot\data\' folder) are inputs for this step.
 2. Important! Change the lines in the 'Kristina_datToHtm_v05_1.cmd' script:
 	`set inputDir=c:/PF2/Mascot/data/20181104`
+	
 	`set outputDirProts=c:\PF2\Mascot\Kristina\Mia2018\Mia2018_4htmProts`
+	
 	`set outputDirPepts=c:\PF2\Mascot\Kristina\Mia2018\Mia2018_4htmPepts`
+	
 3. Run script 'Kristina_datToHtm_v05_1.cmd' to convert mascot DAT-files to HTM-files with proteins and HTM-files with peptides simultaneously. Script will also rename the HTM-files according to MSM-files (their names are stored into DAT-files).
 4. To fix the links and to work in the web-browsers correctly HTM-files should be modified: add the following line into the <HEAD> tag:
 	`<base href="http://filimonovpc/mascot/cgi/">`
