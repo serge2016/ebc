@@ -14,6 +14,7 @@ Last modification date: 22.11.2018 08:00
 ### DAT -> HTM using Mascot script on a Windows-based machine
 1. DAT-files from previous step (subfolder(-s) with dates in the 'c:\PF2\Mascot\data\' folder) are inputs for this step.
 2. Important! Change the lines in the 'Kristina_datToHtm_v05_1.cmd' script:
+
 	`set inputDir=c:/PF2/Mascot/data/20181104`
 	
 	`set outputDirProts=c:\PF2\Mascot\Kristina\Mia2018\Mia2018_4htmProts`
